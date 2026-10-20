@@ -1,0 +1,31 @@
+[1mdiff --git a/index.html b/index.html[m
+[1mindex ab98ab5..403c1db 100644[m
+[1m--- a/index.html[m
+[1m+++ b/index.html[m
+[36m@@ -4,10 +4,25 @@[m
+   <meta charset="UTF-8">[m
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">[m
+   <title>Sumador</title>[m
+[32m+[m[32m  <link rel="stylesheet" href="style.css">[m
+ </head>[m
+ <body>[m
+ [m
+[31m-  <h1>Sumador</h1>[m
+[32m+[m[32m  <div class="container">[m
+[32m+[m
+[32m+[m[32m    <h1>Sumador</h1>[m
+[32m+[m
+[32m+[m[32m    <input type="number" id="num1" placeholder="Número 1">[m
+[32m+[m
+[32m+[m[32m    <input type="number" id="num2" placeholder="Número 2">[m
+[32m+[m
+[32m+[m[32m    <button id="sumBtn">Sumar</button>[m
+[32m+[m
+[32m+[m[32m    <h2 id="result">Resultado: 0</h2>[m
+[32m+[m
+[32m+[m[32m  </div>[m
+[32m+[m
+[32m+[m[32m  <script src="script.js"></script>[m
+ [m
+ </body>[m
+ </html>[m
